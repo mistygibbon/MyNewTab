@@ -1,0 +1,40 @@
+/* Basic styles for the page */
+html{
+    color-scheme: light dark;
+}
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Container to hold everything side by side */
+.container {
+    display: flex;
+    width: 100%;
+}
+
+/* Left section with large text input field */
+.left {
+    flex: 1; /* Takes up 50% of the space */
+    padding: 20px;
+}
+
+/* Large text input field */
+#user-input {
+    width: 100%;
+    height: 90%;
+    padding: 15px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Optional styling for the right section */
+.right {
+    flex: 1; /* Takes up 50% of the space */
+    background-color: light-dark(#f4f4f4,#121212);
+    padding: 20px;
+}
